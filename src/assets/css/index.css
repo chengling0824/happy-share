@@ -1,0 +1,238 @@
+body{
+    background-color: #f8f8f8;
+}
+.content{
+    margin: 0 auto;
+    margin-top: 80px;
+    font-family: "Microsoft YaHei";
+    /* background-color: #eee; */
+}
+h2{
+    background-color: #fff;
+    line-height: 1.7;
+    font-weight: 400;
+    padding: 80px 0;
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+a{
+    text-decoration: none;
+}
+
+/*卡片*/
+.el-card{
+    border:none !important;
+}
+
+.el-card__body img{
+    width: 100%;
+}
+.el-card:hover img{
+    opacity: 0.5;
+}
+.types-title{
+    position: relative;
+    font-size: 24px;
+    color: #1C1F21;
+    text-align: left;
+    font-weight: 600;
+    letter-spacing: 0px;
+    line-height: 32px;
+    padding: 20px;
+}
+.types-title a{
+    float: right;
+    line-height: 24px;
+    color: #1C1F21;
+    font-size: 14px;
+    font-weight: normal;
+}
+.types-title a:hover{
+    color: #02b0e9;
+}
+  
+  
+  
+  /*轮播*/
+  .el-carousel__item img{
+      width: 100%;
+      height: 100%;
+  }
+  
+  /*主页面*/
+  .container-main-box{
+      margin: 20px auto;
+  }
+  .container-main-box .main-box {
+      position: relative;
+  }
+  
+  section{
+      background-color: #fff;
+      margin: 10px auto;
+      padding: 20px 40px;
+      box-sizing: border-box;
+      border-radius: 6px;
+      text-align: left;
+      width: 75%;
+  }
+
+  /*工具*/
+  .tools-box {
+      width: 260px;
+      height: 160px;
+      position: relative;
+      cursor: pointer;
+      /*margin-top: 20px;*/
+  }
+  .tools-box img{
+      width: 40px;
+      height: 40px;
+  }
+  .tools-bg-img {
+      width: 100%;
+      height: 100%;
+      background: url("https://static.udongman.cn/statics/images/index-tools-bg-n.png");
+      position: absolute;
+      top: 0;
+      left: 0;
+  }
+  .tools-box:hover .tools-bg-img{
+      background: url("https://static.udongman.cn/statics/images/index-tools-bg-h.png") !important;
+  }
+  .tools-img {
+      float: left;
+      cursor: pointer;
+      position: absolute;
+      top:60px;
+      left: 40px;
+  }
+  .tools-desc {
+      text-align: left;
+  }
+  .tools-desc .tit {
+      position: absolute;
+      font-size: 18px;
+      color: #666;
+      font-weight: 500;
+      left: 100px;
+      top: 52px;
+  }
+  .tools-desc .dec {
+      width: 220px;
+      position: absolute;
+      left: 20px;
+      top: 80px;
+      /*position: relative;*/
+      font-size: 15px;
+     /* width: 320px;*/
+      color: #999;
+      word-break: break-all;
+      word-wrap: break-word;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      display: -webkit-box;
+      -webkit-line-clamp: 4;
+      -webkit-box-orient: vertical;
+      max-height: 87px;
+  }
+  /*material-recommend*/
+  section.material-recommend{
+      background-color: #eee;
+      /*width: 1600px;*/
+  }
+  .course-recommend img,
+  .material-recommend img{
+      border-radius: 4px;
+  }
+  .material-recommend .el-card{
+      background-color: #eee !important;
+  }
+  .material-recommend .el-card__body,
+  .course-recommend .el-card__body{
+      padding: 10px !important;
+  }
+  .course-recommend .course-card-name{
+      font-size: 16px;
+      color: #07111B;
+      line-height: 24px;
+      word-wrap: break-word;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      transition: all .3s;
+      font-weight: bold;
+      height: 46px;
+  }
+  .course-recommend .el-card:hover{
+      cursor: pointer;
+  }
+  .course-recommend .el-card:hover .course-card-name,
+  .material-recommend .el-card:hover .material-card-name{
+      color:#ef4849;
+  }
+  .course-recommend .course-card-info{
+      font-size: 12px;
+      color: #9199A1;
+      line-height: 18px;
+      margin-top: 4px;
+      font-weight: 400;
+  }
+  .course-card-price.sales {
+      font-size: 12px;
+      color: #F01414 !important;
+      font-weight: bold;
+  }
+  .course-card-price .sales-tip {
+      box-sizing: border-box;
+      background: rgba(242, 13, 13, 0.08);
+      border-radius: 2px;
+      font-weight: 200;
+      color: #F20D0D;
+      padding: 0 4px;
+      display: inline-block;
+  }
+  .course-recommend .el-row,
+  .material-recommend .el-row{
+      display: inline-block;
+      width: 70%;
+  }
+  .material-recommend .special-recommend{
+      margin-top: 60px;
+  }
+  .special-recommend {
+      width: 260px;
+      height: 400px;
+      padding: 20px;
+      display: inline-block;
+      vertical-align: top;
+      box-sizing: content-box;
+  }
+  .special-recommend header{
+      font-size: 20px;
+      color: #1C1F21;
+      text-align: center;
+  }
+  .works-recommend .el-col{
+      /*display: inline-flex;
+      flex-direction: column ;*/
+  }
+  .works-recommend .el-row{
+      /*clear:both*/
+  }
+  .el-col img{
+      width: 100%;
+  }
+  .el-col img:hover{
+      opacity: 0.5;
+      cursor: pointer;
+  }
+  .bottom-more{
+      display: inline-block;
+      padding: 40px 400px;
+      color: #000;
+      /*float: bottom;*/
+      /*margin-bottom: 40px auto;*/
+  }
